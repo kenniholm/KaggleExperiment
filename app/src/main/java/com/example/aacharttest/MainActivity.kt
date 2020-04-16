@@ -3,16 +3,11 @@ package com.example.aacharttest
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Environment
-import android.util.Log
 import com.github.mikephil.charting.charts.LineChart
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
-import com.opencsv.CSVReader
 import com.opencsv.CSVReaderBuilder
-import java.io.File
-import java.io.FileReader
 import java.io.IOException
 import java.io.InputStreamReader
 
