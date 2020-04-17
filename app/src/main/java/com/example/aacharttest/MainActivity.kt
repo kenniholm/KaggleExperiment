@@ -48,8 +48,6 @@ class MainActivity : AppCompatActivity() {
             val lines = reader.readAll()
             for (line in lines){
 
-                //println(line[0] + "|" + line[1] + line[2] + line[3] + line[4] + line[5] + line[6] + line[7])
-
                 val singleData = StudentData(line[0], line[1], line[2], line[3], line[4], line[5].toFloat(), line[6].toFloat(), line[7].toFloat())
                 data.add(singleData)
             }
